@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   s.files = %w( test/test_xmpp4r_simple.rb lib/xmpp4r-simple.rb README COPYING CHANGELOG ) 
   s.require_path = "lib" 
   s.test_files = Dir.glob("test/test_*.rb")
-  s.has_rdoc = true 
   s.extra_rdoc_files = ["README", "COPYING"] 
   s.rubyforge_project = "xmpp4r-simple"
 end 
